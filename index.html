@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Psychic Game </title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+    <div id="game" class="game-column">
+        <h1>Psychic Game</h1>
+        <h2>Guess What Letter I'm thinking of</h2>
+       <hr>
+        <div data-ng-class="row">
+                <div id="maincontent">
+            <div class="col-6 .col-md-4" id="game-entry">
+        <p>Win :
+            <span id="user_win">
+                <strong></strong>
+            </span>
+        </p>
+
+        <p>Losses :
+            <span id="user_loss">
+                <strong></strong>
+            </span>
+        </p>
+
+        <p>Guesses Left:
+            <span id="guesses_left">
+                <strong></strong>
+            </span>
+        </p>
+
+        <p>Your Guesses so far :
+            <span id="user_guesses">
+                <strong></strong>
+            </span>
+        </p>
+        </div>
+    </div>
+</div>
+
+    </div>
+    </div>
+    <script src="./assets/javascript/game.js"></script>
+    </body>
+    </html>

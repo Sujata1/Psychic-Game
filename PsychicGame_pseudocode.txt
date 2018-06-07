@@ -1,0 +1,17 @@
+Computer guesses an alphabet
+
+User get 9 chances to guess letter selected by computer
+
+When user clicks letter
+	Dispaly letters selected by user
+	Reduce number of guesses remaining by 1
+	
+If uer gets correct letter		
+	Add 1 to Win
+	Display Win
+	Reset game
+
+If number are guesses are 0 
+	Add 1 to Lost
+	Display Lost
+	Reset game

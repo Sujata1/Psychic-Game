@@ -1,0 +1,36 @@
+body{
+    align-content: center;
+
+}
+.container{
+      max-width: 720px; 
+}
+
+.game-column {
+    padding-top: 40px;
+    
+    text-align: center;
+    margin-top: 20px;
+    min-height: 400px;
+    background-color: aquamarine;
+}
+
+#game-entry {
+    width: 300px;
+  margin-left: 100px;
+  margin-right: 50px;
+    text-align: left;
+   
+}
+
+#maincontent{
+    width: 700px;
+    margin: 0 auto;
+}
+ 
+p{
+    background-color: rgb(118, 233, 233);
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+}
